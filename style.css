@@ -71,13 +71,14 @@ li a {
 .main-contents {
   width: 920px;
   margin: 0 auto;
+  padding: 90px 0;
 }
 
 .main-contents-title {
   text-align: center;
   font-size: 32px;
   color: #000;
-  padding: 90px 0 8px 0;
+  padding-bottom: 8px;
   position: relative;
 }
 
@@ -106,7 +107,6 @@ li a {
 .main-contents-image {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 90px;
 }
 
 .image1 {
@@ -166,6 +166,7 @@ li a {
 .main-feature {
   width: 980px;
   margin: 0 auto;
+  padding: 90px 0;
 }
 
 .main-icon {
@@ -201,4 +202,107 @@ li a {
   font-size: 16px;
   color: #000;
   text-align: left;
+}
+
+/*メインプロフィール*/
+.main-profile-area {
+  background-color: #ECEFF1;
+}
+
+.main-profile {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.main-profile-contents {
+  display: flex;
+}
+
+.profile-image-area {
+  width: 512px;
+  text-align: center;
+}
+
+#profile-image {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.profile-area {
+  width: 512px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.name-text {
+  font-size: 16px;
+  padding: 5px 0 20px 0;
+}
+
+/*メインContact*/
+.main-contact {
+  width: 800px;
+  margin:0 auto;
+  padding: 90px 0;
+}
+
+.contact-area {
+  display: flex;
+  margin: 0 auto;
+}
+
+.contact-address {
+  width: 50%;
+}
+
+.contact-address-content {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.contact-name {
+  font-size: 20px;
+  margin: 20px 0 5px 0;
+}
+
+.contact-name:first-child {
+  margin-top: 0;
+}
+
+.contact-address a {
+  text-decoration: underline;
+  color: #212121;
+}
+
+.sns {
+  width: 50%;
+}
+
+.sns-content {
+  width: 180px;
+  margin: 0 auto;
+}
+
+.sns-content .fab {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.sns-content .fab:last-child {
+  margin-right: 0;
+}
+
+footer {
+  background-color: #EC715F;
+  height: 60px;
+  line-height: 60px;
+}
+
+footer p {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
 }
