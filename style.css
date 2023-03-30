@@ -174,23 +174,18 @@ li a {
 .main-icon {
   display: flex;
   text-align: center;
+  margin: 0 auto;
 }
 
-.strength1 {
+.strength {
   width: 320px;
-}
-
-.strength2 {
-  width: 320px;
-  margin: 0 10px;
-}
-
-.strength3 {
-  width: 320px;
-}
-
-.icon {
+  text-align: center;
   font-size: 60px;
+  margin-right: 10px;
+}
+
+.strength:last-child {
+  margin-right: 0;
 }
 
 .strength-title {
@@ -399,6 +394,25 @@ footer p {
    }
 
    .image2 {
+     margin-top: 0;
+   }
+
+   /*Feature*/
+   .main-feature {
+     width: 90%;
+   }
+
+   .main-icon {
+     flex-flow: row wrap;
+     width: 320px;
+   }
+
+   .strength {
+     margin-top: 10px;
+     margin-right: 0px;
+   }
+
+   .strength:first-child {
      margin-top: 0;
    }
 }
