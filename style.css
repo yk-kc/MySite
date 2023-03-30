@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/*ヘッダー*/
 header {
   background-color: #EC715F;
   height: 70px;
@@ -40,7 +41,8 @@ li a {
   color: #FAFAFA;
 }
 
-.main {
+/*メインビジュアル*/
+.main-visual {
   background-image: url(img/mv.png);
   width: 100%;
   height: 650px;
@@ -59,4 +61,144 @@ li a {
   font-size: 20px;
   color: #FAFAFA;
   text-align: center;
+}
+
+/*メインコンテンツ*/
+.main-contents-area {
+  background-color: #ECEFF1;
+}
+
+.main-contents {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.main-contents-title {
+  text-align: center;
+  font-size: 32px;
+  color: #000;
+  padding: 90px 0 8px 0;
+  position: relative;
+}
+
+.main-contents-title:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0px; /*下線の上下位置調整*/
+  display: inline-block;
+  width: 70px; /*下線の幅*/
+  height: 3px; /*下線の太さ*/
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%); /*位置調整*/
+  background-color: #EC715F;
+}
+
+.main-contents-text {
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  padding: 30px 0;
+}
+
+.main-contents-image {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+
+.image1 {
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin:0 10px 10px 0;
+}
+
+.image2 {
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin:0 10px 10px 0;
+}
+
+.image3 {
+  background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.image4 {
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+}
+
+.image5 {
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+}
+
+.image6 {
+  background-image: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 250px;
+}
+
+/*メインFeature*/
+.main-feature {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.main-icon {
+  display: flex;
+  text-align: center;
+}
+
+.strength1 {
+  width: 320px;
+}
+
+.strength2 {
+  width: 320px;
+  margin: 0 10px;
+}
+
+.strength3 {
+  width: 320px;
+}
+
+.icon {
+  font-size: 60px;
+}
+
+.strength-title {
+  font-size: 20px;
+  color: #000;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.strength-text {
+  font-size: 16px;
+  color: #000;
+  text-align: left;
 }
