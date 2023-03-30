@@ -202,7 +202,7 @@ li a {
 }
 
 /*メインプロフィール*/
-.main-profile-area {
+#profile {
   background-color: #ECEFF1;
 }
 
@@ -217,17 +217,19 @@ li a {
 }
 
 .profile-image-area {
-  width: 512px;
-  text-align: center;
+  width: 50%;
 }
 
 #profile-image {
   width: 250px;
+  height: 250px;
+  margin: 0 auto;
   border-radius: 50%;
+  background-image: url(img/my-icon.jpg);
 }
 
 .profile-area {
-  width: 512px;
+  width: 50%;
 }
 
 .name {
@@ -237,6 +239,10 @@ li a {
 .name-text {
   font-size: 16px;
   padding: 5px 0 20px 0;
+}
+
+.name-text:last-child {
+  padding-bottom: 0;
 }
 
 /*メインContact*/
@@ -414,5 +420,24 @@ footer p {
 
    .strength:first-child {
      margin-top: 0;
+   }
+
+   /*Profile*/
+   .main-profile {
+     width: 90%;
+   }
+
+   .main-profile-contents {
+     flex-wrap: wrap;
+     text-align: center;
+   }
+
+   .profile-image-area {
+     width: 100%;
+     margin-bottom: 20px;
+   }
+
+   .profile-area {
+     width: 100%;
    }
 }
