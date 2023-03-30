@@ -64,8 +64,8 @@ li a {
   text-align: center;
 }
 
-/*メインコンテンツ*/
-.main-contents-area {
+/*Portofolio*/
+#portfolio {
   background-color: #ECEFF1;
 }
 
@@ -108,6 +108,7 @@ li a {
 .main-contents-image {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .image1 {
@@ -370,5 +371,34 @@ footer p {
 
    .main-text {
      font-size: 18px;
+   }
+
+   /*Portfolio*/
+   .main-contents {
+     width: 90%;
+   }
+
+   .main-contents-image {
+     width: 300px;
+   }
+
+   .image1 {
+     display: none;
+   }
+
+   .image3 {
+     display: none;
+   }
+
+   .image5 {
+     display: none;
+   }
+
+   .production {
+     margin: 10px 0 0 0;
+   }
+
+   .image2 {
+     margin-top: 0;
    }
 }
