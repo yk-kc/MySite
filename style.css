@@ -303,6 +303,7 @@ footer {
   background-color: #EC715F;
   height: 60px;
   line-height: 60px;
+  width: 100%;
 }
 
 footer p {
@@ -356,6 +357,8 @@ footer p {
      text-align: center;
      background-color: rgba(0,0,0,.9);
    }
+   
+   
 
    /*メインビジュアル*/
    #main-visual {
@@ -439,5 +442,28 @@ footer p {
 
    .profile-area {
      width: 100%;
+   }
+
+   /*Contact*/
+   .main-contact {
+     width: 90%;
+   }
+
+   .contact-area {
+   flex-wrap: wrap;
+   text-align: center;
+   }
+
+   .contact-address {
+     width: 100%;
+   }
+
+   .sns {
+     width: 100%;
+     margin-top: 20px;
+   }
+
+   .sns-content .fab {
+     margin-right: 8px;
    }
 }
